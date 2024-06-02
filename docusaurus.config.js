@@ -5,21 +5,21 @@ const katex = require('rehype-katex');
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'OER Course Title',
-  tagline: 'OER Tag/Keyword',
+  title: 'Capstone Project',
+  tagline: 'CAA900',
   url: 'https://Seneca-ICTOER.github.io/',
-  baseUrl: '/OERTemplate/',
+  baseUrl: '/CAA900/',
   trailingSlash: false,
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'Seneca-ICTOER',
-  projectName: 'OERTemplate',
+  projectName: 'CAA900',
   themeConfig: {
     navbar: {
-      title: 'OER Course Title',
+      title: 'Capstone Project',
       logo: {
-        alt: 'Seneca College',
+        alt: 'Seneca Polytechnic',
         src: 'img/logo.svg',
         srcDark: 'img/logo-dark.svg',
       },
@@ -31,7 +31,7 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'OER Course Title',
+          title: 'Capstone Project',
           items: [
             {
               label: 'Contents',
@@ -43,7 +43,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Seneca College.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Seneca Polytechnic.`,
     },
     prism: {
       theme: lightCodeTheme,
@@ -57,7 +57,7 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           routeBasePath: '/',
-          editUrl: 'https://github.com/Seneca-ICTOER/OERTemplate/tree/main',
+          editUrl: 'https://github.com/Seneca-ICTOER/CAA900/tree/main',
           remarkPlugins: [math],
           rehypePlugins: [katex],
         },
